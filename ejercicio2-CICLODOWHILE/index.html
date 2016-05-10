@@ -1,0 +1,130 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CICLO DO...WHILE</title>
+		<style>
+			body{
+				font-family: sans-serif;
+			}
+			table {
+				border-color: black;
+				text-align: center;
+				width: 100%;
+			}
+			.titulo{
+				background-color:#08088A ;
+				color: white;
+				padding: 3%;
+			}
+			
+			.content{
+				width: 100%;
+				height: auto;
+			}
+			.section1{
+				width: 30%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			.section2{
+				width: 45%;
+				display: inline-table;
+				height: auto;
+				padding-top: 5%;
+			}
+			img{
+				width: 120%;
+				height: auto;
+			}
+			span{
+				color: #E2800F;
+			    font-style: italic;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.constante{
+				color: #088A85;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.cond{
+				color: #AF20A0;
+			    font-weight: bolder;
+			    font-size: large;
+			    font-family: sans-serif;
+			}
+	</style>
+	</head>
+	<body>
+	<center>
+		<h1>Ejercicio #2: SUMA 10 NUMEROS CICLO DO...WHILE</h1>
+		<p>
+		Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo DO...WHILE.
+		Realice el diagrama de flujo y el pseudocódigo
+		</p>
+	</center>
+	<div class="content">
+			<div class="section1">
+				<h2>Pseudocódigo</h2>
+				<table>
+				<caption><strong><h3>Variables</h3></strong></caption>
+						<tr>
+							<td class="titulo">
+								<strong> Nombre</strong>
+							</td>
+							<td class="titulo">
+								<strong> Descripción</strong>
+							</td>
+							<td class="titulo">
+								<strong> Tipo</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 num
+							</td>
+							<td>
+								Primer valor
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 i
+							</td>
+							<td>
+								Valor a incrementar
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+				</table>
+				<br>
+				<br>
+				<center><h3>Proceso</h3></center>
+				<ol>
+					<li>Inicio</li>
+					<li>Leer <span>"num"</span>  e <span> "i"</span></li>
+					<li>Hacer <strong>Ciclo</strong>
+					<br>
+					Incrementa <span>num</span> en uno cada vez(<span>num++</span>); asignalo a <span> i </span> y suma el nuevo valor de <span>num</span> cada vez.(<span>i+=num</span>);
+					</li>
+					<li>Revisar<strong> Condición </strong><span class="cond"> Si </span> <span>"num"</span><span class="constante"> < 10</span>,<span class="cond"> entonces </span>hacer ciclo;
+					<p><span class="cond"> Si no</span> finaliza el ciclo</p> </li>
+					<li>Fin</li>
+				</ol>
+			</div>
+			<div class="section2">
+				<h2>Diagrama de Flujo</h2>
+				<img src="eje2.png">
+			</div>
+		</div>
+<!--/////////// SCRIPTS ///////////-->
+	<script type="text/javascript" src="Js/main.js"></script>
+
+	</body>
+</html>

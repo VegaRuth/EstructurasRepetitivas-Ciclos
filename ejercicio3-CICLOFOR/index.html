@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CICLO FOR</title>
+		<script type="text/javascript" src="Js/main.js"></script>
+			<style>
+			body{
+				font-family: sans-serif;
+			}
+			table {
+				border-color: black;
+				text-align: center;
+			}
+			.titulo{
+				background-color:#08088A ;
+				color: white;
+			}
+			.content{
+				width: 100%;
+				height: auto;
+			}
+			.section1{
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+				width: 27%;
+			}
+			.section2{
+				width: 48%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			img{
+				width: 120%;
+				height: auto;
+			}
+			span{
+				color: #E2800F;
+			    font-style: italic;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.constante{
+				color: #088A85;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.cond{
+				color: #AF20A0;
+			    font-weight: bolder;
+			    font-size: large;
+			    font-family: sans-serif;
+			}
+	</style>
+	</head>
+	<body>
+	<center>
+		<h1>Ejercicio #3: SUMA 10 NUMEROS CICLO FOR</h1>
+		<p>		
+		Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo FOR.
+		Realice el diagrama de flujo, el pseudocódigo
+		</p>
+	</center>	
+	</body>
+	<div class="content">
+			<div class="section1">
+				<h2>Pseudocódigo</h2>
+				<table>
+				<caption><strong><h3>Variables</h3></strong></caption>
+						<tr>
+							<td class="titulo">
+								Nombre
+							</td>
+							<td class="titulo">
+								Descripción
+							</td>
+							<td class="titulo">
+								Tipo
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 num
+							</td>
+							<td>
+								Primer valor a introducir
+							</td>
+							<td>
+								char
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 acumulador
+							</td>
+							<td>
+								Resultado de opereción
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 n
+							</td>
+							<td>
+								Contador
+							</td>
+							<td>
+								Int
+							</td>
+						</tr>
+				</table>
+				<center><h3>Proceso</h3></center>
+				<ol>
+					<li>
+						Inicio
+					</li>
+					<li>Leer 
+						<span>"num"</span> y <span>"acumulador"</span>
+					</li>
+					<li>
+						<strong>
+							Definir For
+						</strong>
+					<br>
+						<p><span class="cond"> Si </span> <span>"n"</span> es = 1 ;<span class="cond">entonces</span>
+						n <= 10 (dar 10 vueltas); n++ (incremento en 1)
+						</p>
+						<strong>
+							Proceso
+						</strong>
+						<p>Pedir valor de <span>"num"</span></p>
+						<p><span>Acumulador</span>= <span>"acumulador"</span> + <span> num</span></p>
+				
+						<p>Reevaluar<span class="cond"> Si </span> ( <span>n</span> = 1;<span>n</span><=10;<span>n</span>++), <span class="cond">entonces</span> repetir el proceso, <span class="cond">si no </span>detener y mandar
+						<strong>alert:</strong>El resultado final
+						</p>
+					<li>Fin</li>
+				</ol>
+			</div>
+			<div class="section2">
+				<h2>Diagrama de Flujo</h2>
+				<img src="eje3.png">
+			</div>
+		</div>
+</html>

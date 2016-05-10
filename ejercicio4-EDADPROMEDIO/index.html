@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>“EDAD PROMEDIO”</title>
+		<script type="text/javascript" src="Js/main.js"></script>
+		<style>
+			body{
+				font-family: sans-serif;
+			}
+			table {
+				border-color: black;
+				text-align: center;
+			}
+			.titulo{
+				background-color:#08088A ;
+				color: white;
+			}
+			.content{
+				width: 100%;
+				height: auto;
+			}
+			.section1{
+				width: 27%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			.section2{
+				width: 48%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			img{
+				width: 120%;
+				height: auto;
+			}
+			span{
+				color: #E2800F;
+			    font-style: italic;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.constante{
+				color: #088A85;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.cond{
+				color: #AF20A0;
+			    font-weight: bolder;
+			    font-size: large;
+			    font-family: sans-serif;
+			}
+	</style>
+	</head>
+	<body>
+	<center>
+		<h1>Ejercicio #4: EDAD PROMEDIO</h1>
+		<p>		
+		Se requiere un algoritmo para obtener la edad promedio de un grupo de 'N' alumnos.
+		Realice el diagrama de flujo Y el pseudocódigo para representarlo, utilizando los tres tipos de estructuras de ciclo
+		</p>
+	</center>
+	<div class="content">
+			<div class="section1">
+				<h2>Pseudocódigo</h2>
+				<table>
+				<caption><strong><h3>Variables</h3></strong></caption>
+						<tr>
+							<td class="titulo">
+								Nombre
+							</td>
+							<td class="titulo">
+								Descripción
+							</td>
+							<td class="titulo">
+								Tipo
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 i
+							</td>
+							<td>
+								contador
+							</td>
+							<td>
+								Int
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 num
+							</td>
+							<td>
+								valor a introducir
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 cubo
+							</td>
+							<td>
+								contador
+							</td>
+							<td>
+								Int
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 edad
+							</td>
+							<td>
+								valor a ingresar
+							</td>
+							<td>
+								Int
+							</td>
+						</tr>
+				</table>
+				<br>
+				<br>
+				<center><h3>Proceso</h3></center>
+				<ol>
+					<li>
+						Inicio
+					</li>
+					<li>Leer 
+						<span>"n"</span> y <span>"acumulador"</span>
+					</li>
+					<li>
+						<strong>
+							Definir For
+						</strong>
+					<br>
+					<p><span class="cond"> Si </span> <span>"i"</span> es = 1 ;<span class="cond">entonces</span>
+						i = <span> n </span>(dar 10 vueltas); <span> i</span>++ (incremento en 1)
+						</p>
+						<strong>
+							Proceso
+						</strong>
+						<p>Pedir valor de <span>"edad"</span></p>
+						<p><span>Acumulador</span>= <span>"acumulador"</span> + <span>edad</span></p>
+				
+						<p>Reevaluar<span class="cond"> Si </span> ( <span>i</span> = 1;<span>i</span> =<span> n</span>;<span>i</span>++), <span class="cond">entonces</span> repetir el ciclo, <span class="cond">si no </span>detener y mandar
+						<strong>alert:</strong>El resultado final
+						</p>
+					<li>Fin</li>
+				</ol>
+			</div>
+			<div class="section2">
+				<h2>Diagrama de Flujo</h2>
+				<img src="eje4.png">
+			</div>
+		</div>
+	</body>
+</html>
